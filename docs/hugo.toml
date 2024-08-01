@@ -1,0 +1,4 @@
+baseURL = 'https://serra-de-aire.github.io/'
+languageCode = 'en-us'
+title = 'Serra D'aire'
+theme = 'blowfish'

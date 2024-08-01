@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://serra-de-aire.github.io/sitemap.xml
