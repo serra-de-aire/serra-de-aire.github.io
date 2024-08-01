@@ -23,7 +23,6 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
-    working-directory: ./docs
     env:
       HUGO_VERSION: 0.128.0
     steps:
@@ -59,7 +58,6 @@ jobs:
           path: ./public
 
   deploy:
-    working-directory: ./docs
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
